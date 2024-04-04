@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>HELLO</h1>
+    <div className='back-ground'>
+      <h1 className='title'>PCR値 計算</h1>
     </div>
   );
 }
