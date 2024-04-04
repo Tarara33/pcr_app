@@ -23,3 +23,13 @@ input {
     font-size: 48px;
   }
 }
+
+@media (min-width: 431px) and (max-width: 1024px) {
+  form {
+    text-align: center;
+  }
+
+  .total {
+    font-size: 72px;
+  }
+}
