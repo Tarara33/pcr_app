@@ -6,8 +6,64 @@
   /* 画像をいい感じにフィットさせる */
   background-size: cover;
   display: flex;
+  /* 文字の位置 */
   justify-content: center; /* 水平方向の中央揃え */
   align-items: center; /* 垂直方向の中央揃え */
+  /* 子要素の位置指定の基準に */
+  position: relative;
+}
+
+.shine {
+  background-image: url('/public/kirakira.png');
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  
+}
+
+.shine1 {
+  right: -30px;
+  top: 0;
+  animation: animate-scale 2s infinite; /* 3秒間で無限に繰り返す */
+}
+
+.shine2 {
+  left: -30px;
+  top: 80px;
+  animation: animate-scale 3s infinite; /* 3秒間で無限に繰り返す */
+}
+
+.shine3 {
+  left: 330px;
+  top: -30px;
+  animation: animate-scale 2s infinite; /* 3秒間で無限に繰り返す */
+}
+
+.shine4 {
+  right: 350px;
+  top: 60px;
+  animation: animate-scale 3s infinite; /* 3秒間で無限に繰り返す */
+}
+
+.shine5 {
+  right: 750px;
+  top: 30px;
+  animation: animate-scale 4s infinite; /* 3秒間で無限に繰り返す */
+}
+
+@keyframes animate-scale {
+  0%, 100% {
+    transform: scale(1); /* 元のサイズ */
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.5); /* 1.5倍のサイズ */
+    opacity: 1; /* 完全に不透明 */
+  }
 }
 
 .title {
