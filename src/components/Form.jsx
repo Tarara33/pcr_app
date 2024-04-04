@@ -1,9 +1,13 @@
-import './From.css'
+import './Form.css'
 
 export const Form = () => {
   return (
-    <div className="form-container">
-      <h1>hhh</h1>
+    <div>
+      <form action="">
+        <input type="number" placeholder="染まった面数"/>
+        <input type="number" placeholder='歯の本数'/>
+        <button>計算！</button>
+      </form>
     </div>
   );
 }
