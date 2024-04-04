@@ -22,10 +22,10 @@ export const Form = () => {
   return (
     <div>
       <form>
-        <input id='stained-teeth' type="number" placeholder="染まった面数" onChange={StainTeethChange}/>
+        <input id='stained-teeth' type="number" placeholder="歯頸部が染まった面数" onChange={StainTeethChange}/>
         <input id='teeth' type="number" placeholder='歯の本数' onChange={TeethChange}/>
       </form>
-      <h1>{Total()}</h1>
+      <h1 className='total'>{Total()}</h1>
     </div>
   );
 }
