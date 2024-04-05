@@ -78,6 +78,11 @@
   margin-top: 220px;
 }
 
+p {
+  color: grey;
+  margin: 100px;
+}
+
 @media (max-width: 430px) {
   .back-ground {
     background-position: center;
