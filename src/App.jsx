@@ -11,7 +11,10 @@ function App() {
       <div className='shine shine5'></div>
       <h1 className='title'>PCR値 計算</h1>
       <Form/>
-      <p>©ぴーしーあーるっち</p>
+      <div className='agreement'>
+        <a  className='link' href="https://forms.gle/Zritt53JFZLtKjrKA" target='blank'>お問い合わせ</a>
+        <p>©ぴーしーあーるっち</p>
+      </div>
     </div>
   );
 }
