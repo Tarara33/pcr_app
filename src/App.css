@@ -78,6 +78,19 @@
   margin-top: 220px;
 }
 
+.agreement {
+  background-color: grey;
+  color: white;
+  border-radius: 15px;
+  display: flex; /* 要素を横並びにする */
+  padding: 10px;
+  margin: 100px;
+}
+
+.link {
+  margin-right: 10px;
+}
+
 @media (max-width: 430px) {
   .back-ground {
     background-position: center;
@@ -111,6 +124,11 @@
   .title {
     font-size: 48px;
     margin-top: 150px;
+  }
+
+  .agreement {
+    display: block;
+    margin: 50px;
   }
 }
 
